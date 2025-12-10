@@ -1,4 +1,4 @@
-# Production-Grade State Management Demo
+# Production-Grade State Management
 
 A standalone implementation demonstrating durability, persistence, and state management for LangGraph-based AI agents.
 
