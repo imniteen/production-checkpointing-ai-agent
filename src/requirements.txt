@@ -1,0 +1,40 @@
+# Python dependencies for production-grade state management demo
+# Install with: pip install -r requirements.txt
+
+# Core framework
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+
+# PostgreSQL (primary storage)
+asyncpg>=0.30.0
+langgraph-checkpoint-postgres>=3.0.0
+psycopg2-binary>=2.9.0
+
+# Elasticsearch (optional - for search)
+elasticsearch>=8.0.0
+
+# OpenAI
+openai>=1.50.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Async utilities
+aiofiles>=24.0.0
+
+# Observability (optional)
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+opentelemetry-exporter-otlp>=1.20.0
+opentelemetry-instrumentation-fastapi>=0.41b0
+
+# API framework (if building REST API)
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
+# Development tools
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+black>=24.0.0
+ruff>=0.1.0
